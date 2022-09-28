@@ -14,11 +14,12 @@ function New () {
             id="name"
             required
           />
-          <label htmlFor="image">Image</label>
+          <label htmlFor="website">Image</label>
           <input
-            type="text"
+            type="url"
             name="image"
-            id="image"/>
+            id="website"
+            pattern="https?://.+" title="Include http://"/>
           <label htmlFor="hasGluten">Has Gluten?</label>
           <input
             type="checkbox"
